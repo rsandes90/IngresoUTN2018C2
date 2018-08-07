@@ -10,11 +10,12 @@ function mostrar()
     for ( i = 0; i < 5; i ++){
 
     var nota = parseInt( prompt("Ingrese una nota: ") );
-    var sexo = prompt("Ingrese un sexo: ");    
 
     while (nota < 0 || nota > 10){
         nota = prompt("Nota incorrecta. Ingrese la nota nuevamente: ");
     }
+
+    var sexo = prompt("Ingrese un sexo: ");    
 
     while (sexo != 'm' && sexo != 'f'){
         sexo = prompt("Sexo incorrecto. Ingrese el sexo nuevamente: ");
